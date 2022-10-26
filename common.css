@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    color: #f3a0c3;
+    opacity: 0.95;
+    display: block;
+    margin: auto;
+}
+
+a {
+    text-decoration-color: black;
+}
+
+.wrapper {
+    position: relative;
+    margin: 15px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
