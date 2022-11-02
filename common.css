@@ -8,8 +8,8 @@
 
 :root {
     font-family: 'Roboto', sans-serif;
-    color: #f3a0c3;
-    opacity: 0.95;
+    --h1-h2-color: rgb(238, 101, 169);
+    --background-color: rgb(201, 233, 252);
     display: block;
     margin: auto;
 }

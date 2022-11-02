@@ -1,0 +1,10 @@
+.footer {
+    background: linear-gradient(90deg, rgb(247, 222, 232)0px, hsl(347, 69%, 70%)1920px);
+    padding: 30px;
+    margin-top: 50px;
+}
+.footer__text {
+    display: flex;
+    justify-content: flex-end;
+    font-size: large;
+}

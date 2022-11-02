@@ -1,11 +1,17 @@
 
 body {
-    background-color: rgb(201, 233, 252);
+    background-color: var(--background-color);
     margin-top: 25px;
+}
+h1 {
+    color: var(--h1-h2-color);
+    font-size: 50px;
+
 }
 
 h2 {
-    color: rgb(231, 106, 169);
+    color: var(--h1-h2-color);
+    font-size: 30px;
 }
 .order__input {
     margin-top: 10px;
@@ -22,7 +28,6 @@ h2 {
     border: 0;
     background-color: rgb(247, 201, 226);
     font-weight: 900;
-    cursor: pointer;
     text-transform: uppercase;
 }
 
@@ -46,6 +51,10 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+p { 
+    font-size: 30px;
+
+}
 
 .buy-button {
     max-width: 150px;
@@ -55,7 +64,6 @@ h2 {
     border: 0;
     background-color: rgb(222, 222, 248);
     font-weight: 900;
-    cursor: pointer;
     text-transform: uppercase;
 }
 
@@ -67,7 +75,7 @@ h2 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    text-align: right;
+    text-align: justify;
 }
 
 .clothes__img {
@@ -79,6 +87,7 @@ h2 {
 .video {
     text-align: center;
     margin: auto;
+    
 }
 
 .youtube-video {

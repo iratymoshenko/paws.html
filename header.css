@@ -23,6 +23,7 @@
 .header__menu-item {
     padding-left: 30px;
     color: rgb(10, 10, 10);
+    list-style-type: none;
 }
 
 @media (max-width: 800px) {
